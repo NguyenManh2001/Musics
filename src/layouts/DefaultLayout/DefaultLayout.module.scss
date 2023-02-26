@@ -1,0 +1,39 @@
+.wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    background-color: #000;
+    height: 657px;
+}
+.Sidebar{
+    width: 20%;
+    height: 76%;
+    background-color: #222;
+    margin-top: -2%;
+    margin-left: 2%;
+    border-radius: 13px;
+    z-index: 3;
+    box-shadow: -1px -1px;
+}
+.container{
+    flex: 1 1;
+    height: 76%;
+    background-color: #222;
+    margin-top: -2%;
+    margin-left: 2%;
+    border-radius: 13px;
+    z-index: 3;
+    box-shadow: -1px -1px;
+    overflow-x: hidden;
+    
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    height: 76px;
+    padding: 4px;
+    z-index: 10;
+    margin-left: 25px;
+}

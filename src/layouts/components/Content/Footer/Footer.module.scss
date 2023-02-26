@@ -1,0 +1,139 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Image {
+    width: 80px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.Music{
+    width: 20%;
+}
+.Link {
+    color: hsla(0, 0%, 100%, 0.7) !important;
+    text-decoration: none;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    visibility: visible;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+
+    &:hover {
+        color: #fff !important;
+        text-decoration: underline;
+    }
+}
+.title{
+    display: flex;
+}
+.Icon {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+    // &.active{
+    // .BackIcons{
+    //     color:#fff;
+    // }
+    // }
+}
+.btn {
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btnIcon {
+    background: none;
+    cursor: pointer;
+    padding: 7px;
+}
+.content {
+    width: 47%;
+    padding: 0 20px;
+}
+.contentItemTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px ;
+}
+.contentItemBottom {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.startTime {
+    color: #fff !important;
+    padding: 0 7px;
+    width: 50px;
+    margin: 0 10px;
+}
+.playLeft {
+    margin: 0px 36px 0 60px;
+}
+.playRight {
+    margin: 0px 36px 0 38px;
+}
+.Icons {
+    margin-right: 25px;
+    background: none;
+    cursor: pointer;
+    &:hover {
+        fill: #fff !important;
+    }
+    &.active{
+        fill: var(--white) !important;
+    }
+}
+.Iconss {
+    background: none;
+    cursor: pointer;
+    &:hover {
+        fill: #fff !important;
+    }
+}
+.PlayIcon {
+    width: 44px;
+    height: 42px;
+    padding: 7px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    &:hover {
+        color: #fff  !important;
+    }
+}
+.input {
+    width: 73%;
+    height: 3px;
+    margin: 0 7px;
+}
+.footer {
+    padding-left: 6%;
+    display: flex;
+    align-items: center;
+}
+.btnFooter {
+    margin: 10px;
+    background: none;
+    cursor: pointer;
+}
+.valueInput {
+    height: 3px;
+}
+
+//Icon 
+.LoveIcon{
+
+    &.active{
+        color: #fff;
+    }
+}
+
